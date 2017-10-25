@@ -302,7 +302,7 @@ msgstr "No encontró las firmas."
 
 #: includes/csv.php:44 includes/emailpetition.php:88 includes/widget.php:213
 msgid "First Name"
-msgstr "Nombre"
+msgstr "Nome"
 
 #: includes/csv.php:45 includes/emailpetition.php:93 includes/widget.php:217
 msgid "Last Name"
