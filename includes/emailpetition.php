@@ -73,7 +73,7 @@ function dk_speakout_emailpetition_shortcode( $attr ) {
 							<input type="hidden" id="dk-speakout-lang-' . $petition->id . '" value="' . $wpml_lang .'" />
 							<input type="hidden" id="dk-speakout-textval-' . $petition->id . '" value="val" />
 							
-							<div class="dk-speakout-full">
+							<div class="dk-speakout-full honorific-wrapper">
 								<label for="dk-speakout-honorific-' . $petition->id . '" class="required">' . __( 'Title', 'speakout' ) . '</label>&nbsp;&nbsp;
                                     <select name="dk-speakout-honorific" id="dk-speakout-honorific-' . $petition->id . '">
                                       <option value="' . __( 'Ms', 'speakout' ) . '">' . __( 'Ms', 'speakout' ) . '</option>
