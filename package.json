@@ -1,0 +1,12 @@
+{
+  "name": "speakout",
+  "version": "1.6.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexCortinas/speakout.git"
+  },
+  "license": "GPLv2",
+  "dependencies": {
+    "less": "^2.7.3"
+  }
+}
