@@ -375,7 +375,7 @@ msgstr "Leer o editar la petición"
 
 #: includes/emailpetition.php:62
 msgid "Read the petition"
-msgstr "Ler a petición"
+msgstr "Ler o manifesto"
 
 #: includes/emailpetition.php:77 includes/help.php:6 includes/help.php:75
 #: includes/settings.view.php:121 includes/widget.php:83
