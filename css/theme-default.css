@@ -384,6 +384,7 @@ a.dk-speakout-facebook:active {
 .dk-speakout-clear {
   clear: both;
 }
-.dk-speakout-petition .honorific-wrapper {
+.dk-speakout-petition .honorific-wrapper,
+.dk-speakout-petition .readme-wrapper {
   display: none;
 }
