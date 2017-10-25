@@ -10,6 +10,6 @@
     "less": "^2.7.3"
   },
   "scripts": {
-    "build": "less css/theme-default.less > css/theme-default.css"
+    "build": "lessc css/theme-default.less > css/theme-default.css"
   }
 }
