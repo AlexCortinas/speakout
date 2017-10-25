@@ -65,7 +65,8 @@ function dk_speakout_emailpetition_shortcode( $attr ) {
 					<div id="dk-speakout-windowshade"></div>
 					<div class="dk-speakout-petition-wrap ' . $css_classes . '" id="dk-speakout-petition-' . $petition->id . '" ' . $width . '>
 						<h3>' . stripslashes( esc_html( $petition->title ) ) . '</h3>
-						<a id="dk-speakout-readme-' . $petition->id . '" class="dk-speakout-readme" rel="' . $petition->id . '" style="display: none;"><span>' . __( $petitionReadTitle , 'speakout' ) . '</span></a>
+						<a id="dk-speakout-readme-' . $petition->id . '" class="dk-speakout-readme readme-wrapper" rel="' . $petition->id . '" style="display: none;"><span>' . __( $petitionReadTitle , 'speakout' ) . '</span></a>
+						<a href="https://cuacfm.org/manifesto-cuac-fm-polo-dereito-a-comunicar/" target="_blank" class="dk-speakout-readme"><span>' . __( $petitionReadTitle , 'speakout' ) . '</span></a>
 						<div class="dk-speakout-response"></div>
 						<form class="dk-speakout-petition">
 							<input type="hidden" id="dk-speakout-posttitle-' . $petition->id . '" value="' . esc_attr( urlencode( stripslashes( $petition->title ) ) ) .'" />
