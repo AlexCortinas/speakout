@@ -188,7 +188,7 @@ msgstr "Calle"
 #: includes/emailpetition.php:118 includes/settings.view.php:145
 #: includes/widget.php:241
 msgid "City"
-msgstr "Ciudad"
+msgstr "Cidade"
 
 #: includes/addnew.view.php:209 includes/emailpetition.php:125
 #: includes/settings.view.php:148 includes/widget.php:248
@@ -306,7 +306,7 @@ msgstr "Nombre"
 
 #: includes/csv.php:45 includes/emailpetition.php:93 includes/widget.php:217
 msgid "Last Name"
-msgstr "Apellido"
+msgstr "Apelidos"
 
 #: includes/csv.php:46
 msgid "Email Address"
@@ -375,7 +375,7 @@ msgstr "Leer o editar la petición"
 
 #: includes/emailpetition.php:62
 msgid "Read the petition"
-msgstr "Leer la petición"
+msgstr "Ler a petición"
 
 #: includes/emailpetition.php:77 includes/help.php:6 includes/help.php:75
 #: includes/settings.view.php:121 includes/widget.php:83
@@ -401,7 +401,7 @@ msgstr "Srta"
 #: includes/emailpetition.php:97 includes/signatures.view.php:45
 #: includes/signatures.view.php:57 includes/widget.php:221
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: includes/emailpetition.php:103 includes/widget.php:227
 msgid "Confirm Email"
@@ -419,7 +419,9 @@ msgstr "BCC a ti mismo"
 #: includes/emailpetition.php:197 includes/emailpetition.php:226
 #: includes/widget.php:161
 msgid "signature"
-msgstr "firma"
+msgid_plural "signatures"
+msgstr[0] "firma"
+msgstr[1] "firmas"
 
 #: includes/emailpetition.php:216 includes/widget.php:207
 msgid "Signature goal"
@@ -1029,7 +1031,7 @@ msgstr ""
 
 #: includes/signatures.view.php:44 includes/signatures.view.php:56
 msgid "Name"
-msgstr "Nombre"
+msgstr "Nome"
 
 #: includes/signatures.view.php:48 includes/signatures.view.php:60
 msgid "Opt-in"
