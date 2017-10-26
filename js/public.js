@@ -144,6 +144,7 @@ jQuery( document ).ready( function( $ ) {
 	Petition reader popup
 -------------------------------
  */
+/*
 	$('a.dk-speakout-readme').click( function( e ) {
 		e.preventDefault();
 
@@ -224,6 +225,7 @@ jQuery( document ).ready( function( $ ) {
 		});
 
 	});
+*/
 
 /*
 	Toggle form labels depending on input field focus
