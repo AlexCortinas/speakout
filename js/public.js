@@ -14,7 +14,7 @@ jQuery( document ).ready( function( $ ) {
 
 		var id             = $( this ).attr( 'name' ),
 			lang           = $( '#dk-speakout-lang-' + id ).val(),
-			honorific      = $( '#dk-speakout-honorific-' + id ).val(),
+			//honorific      = $( '#dk-speakout-honorific-' + id ).val(),
 			firstname      = $( '#dk-speakout-first-name-' + id ).val(),
 			lastname       = $( '#dk-speakout-last-name-' + id ).val(),
 			email          = $( '#dk-speakout-email-' + id ).val(),
@@ -79,7 +79,7 @@ jQuery( document ).ready( function( $ ) {
 			var data = {
 				action:         'dk_speakout_sendmail',
 				id:             id,
-				honorific:		honorific,
+				//honorific:		honorific,
 				first_name:     firstname,
 				last_name:      lastname,
 				email:          email,

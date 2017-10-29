@@ -7,7 +7,7 @@ class dk_speakout_Signature
 {
 	public $id;
 	public $petitions_id;
-	public $honorific='';
+	// public $honorific='';
 	public $first_name = '';
 	public $last_name = '';
 	public $email = '';
@@ -173,7 +173,7 @@ class dk_speakout_Signature
 
 		$data = array(
 			'petitions_id'      => $petition_id,
-			'honorific'			=> $this->honorific,
+			//'honorific'			=> $this->honorific,
 			'first_name'        => $this->first_name,
 			'last_name'         => $this->last_name,
 			'email'             => $this->email,
@@ -255,7 +255,7 @@ class dk_speakout_Signature
 	public function populate_from_post()
 	{
 		$this->petitions_id = strip_tags( $_POST['id'] );
-		$this->honorific   = strip_tags( $_POST['honorific'] );
+		//$this->honorific   = strip_tags( $_POST['honorific'] );
 		$this->first_name   = strip_tags( $_POST['first_name'] );
 		$this->last_name    = strip_tags( $_POST['last_name'] );
 		$this->email        = strip_tags( $_POST['email'] );
@@ -342,7 +342,9 @@ class dk_speakout_Signature
 		global $wpdb, $db_signatures;
 
 		$sql = "
-			SELECT `id`, `honorific`, `first_name`, `last_name`, `email`, `confirmation_code`
+			SELECT `id`, 
+		//	`honorific`, 
+			`first_name`, `last_name`, `email`, `confirmation_code`
 			FROM $db_signatures
 			WHERE `petitions_id` = '%d' AND `is_confirmed` = '0'
 		";
@@ -364,7 +366,7 @@ class dk_speakout_Signature
 	{
 		$this->id                = $signature->id;
 		$this->petitions_id      = $signature->petitions_id;
-		$this->honorific		 = $signature->honorificl;
+//		$this->honorific		 = $signature->honorificl;
 		$this->first_name        = $signature->first_name;
 		$this->last_name         = $signature->last_name;
 		$this->email             = $signature->email;
