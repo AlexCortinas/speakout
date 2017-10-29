@@ -1,7 +1,9 @@
 // variables
-@basecolor       : #ccc;
-@headercolor     : #666;
-@buttoncolor     : #d94200;
+@basecolor       : #4696e5;
+@headercolor     : #fe9900;
+@buttoncolor     : #fe9900;
+@fontcolor       : #222222;
+@bottomboxcolor  : #fe9900;
 @noticecolor     : #ffd;
 @successcolor    : #d8f6d9;
 @errorcolor      : #ffebe8;
@@ -26,9 +28,9 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.dk-speakout-petition-wrap {	
+.dk-speakout-petition-wrap {
 	background-color : lighten( @basecolor, 12% );
-	border           : 1px solid @headercolor;
+	// border           : 1px solid @headercolor;
 	border-radius    : @radius;
 	box-shadow       : @boxshadow;
 	font             : normal 15px/1.4em @fontstack !important;
@@ -157,8 +159,9 @@
 	padding-top : .8em;
 
 	label {
-		color          : lighten( @headercolor, 10% );
-		font-size      : .8em;
+		color          : @fontcolor;
+		// color          : lighten( @headercolor, 10% );
+		font-size      : .9em;
 		font-weight    : bold;
 		margin-left    : 1px;
 		position       : relative;
@@ -218,6 +221,9 @@
 .dk-speakout-submit-wrap {
 	margin     : 0 0 1.5em 0;
 	text-align : center;
+    a.dk-speakout-submit {
+        text-decoration: none;
+    }
 }
 .dk-speakout-submit {
 	background     : @buttoncolor url(../images/bg-submit-button.png) repeat-x top left;
@@ -259,7 +265,8 @@
  */
 .dk-speakout-share,
 .dk-speakout-progress-wrap {
-	background : mix( @basecolor, lighten( @headercolor, 45% ) );
+	// background : mix( @basecolor, lighten( @headercolor, 45% ) );
+    background : @bottomboxcolor;
 }
 .dk-speakout-progress-wrap {
 	border-top : 1px solid darken( @basecolor, 5% );

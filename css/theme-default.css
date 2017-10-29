@@ -6,8 +6,7 @@
   -webkit-font-smoothing: antialiased;
 }
 .dk-speakout-petition-wrap {
-  background-color: #ebebeb;
-  border: 1px solid #666;
+  background-color: #7cb4ed;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   font: normal 15px/1.4em Helvetica, Arial, sans-serif !important;
@@ -25,12 +24,12 @@
   padding: .5em 0 .5em 0;
 }
 .dk-speakout-petition-wrap h3 {
-  background: #262626 url(../images/bg-petition-header.png) repeat-x top left;
-  background: -webkit-linear-gradient(#666, #262626);
-  background: -moz-linear-gradient(#666, #262626);
-  background: -ms-linear-gradient(#666, #262626);
-  background: -o-linear-gradient(#666, #262626);
-  background: linear-gradient(#666, #262626);
+  background: #7f4c00 url(../images/bg-petition-header.png) repeat-x top left;
+  background: -webkit-linear-gradient(#fe9900, #7f4c00);
+  background: -moz-linear-gradient(#fe9900, #7f4c00);
+  background: -ms-linear-gradient(#fe9900, #7f4c00);
+  background: -o-linear-gradient(#fe9900, #7f4c00);
+  background: linear-gradient(#fe9900, #7f4c00);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
@@ -49,7 +48,7 @@
 .dk-speakout-readme {
   background: #ffd;
   border-bottom: 1px solid #dfdfa8;
-  color: #808080;
+  color: #ffad32;
   cursor: pointer;
   display: block !important;
   font-size: .8em;
@@ -126,8 +125,8 @@
   /* petition text will be displayed in popup reader, so hide these */
 }
 .dk-speakout-petition label {
-  color: #808080;
-  font-size: .8em;
+  color: #222222;
+  font-size: .9em;
   font-weight: bold;
   margin-left: 1px;
   position: relative;
@@ -162,7 +161,7 @@
   overflow: auto;
 }
 .dk-speakout-petition input[type=text] {
-  border: 1px solid #b3b3b3;
+  border: 1px solid #1f7dd9;
   border-radius: 3px;
   color: #333;
   font: 15px/1.4em Helvetica, Arial, sans-serif !important;
@@ -183,15 +182,18 @@
   margin: 0 0 1.5em 0;
   text-align: center;
 }
+.dk-speakout-submit-wrap a.dk-speakout-submit {
+  text-decoration: none;
+}
 .dk-speakout-submit {
-  background: #d94200 url(../images/bg-submit-button.png) repeat-x top left;
-  background: -webkit-linear-gradient(#ff9a40, #d94200);
-  background: -moz-linear-gradient(#ff9a40, #d94200);
-  background: -ms-linear-gradient(#ff9a40, #d94200);
-  background: -o-linear-gradient(#ff9a40, #d94200);
-  background: linear-gradient(#ff9a40, #d94200);
+  background: #fe9900 url(../images/bg-submit-button.png) repeat-x top left;
+  background: -webkit-linear-gradient(#ffdb65, #fe9900);
+  background: -moz-linear-gradient(#ffdb65, #fe9900);
+  background: -ms-linear-gradient(#ffdb65, #fe9900);
+  background: -o-linear-gradient(#ffdb65, #fe9900);
+  background: linear-gradient(#ffdb65, #fe9900);
   border-radius: 4px;
-  border: 1px solid #d94200;
+  border: 1px solid #fe9900;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   display: inline-block;
@@ -200,7 +202,7 @@
   line-height: 2.4em;
   margin-top: 0;
   position: relative;
-  text-shadow: 0 -1px 0 #a63200;
+  text-shadow: 0 -1px 0 #cb7a00;
   width: 90%;
 }
 .dk-speakout-submit:active {
@@ -222,10 +224,10 @@
  */
 .dk-speakout-share,
 .dk-speakout-progress-wrap {
-  background: #d2d2d2;
+  background: #fe9900;
 }
 .dk-speakout-progress-wrap {
-  border-top: 1px solid #bfbfbf;
+  border-top: 1px solid #3089e2;
   font-size: 12px;
   margin-top: 1em;
   padding: 5px 0;
@@ -249,7 +251,7 @@
 .dk-speakout-progressbar {
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
-  border-right: 1px solid #999999;
+  border-right: 1px solid #1863ad;
   height: 16px;
 }
 .dk-speakout-progressbar-low,
@@ -287,7 +289,7 @@
   background: -ms-linear-gradient(#bbb, #eee);
   background: -o-linear-gradient(#bbb, #eee);
   background: linear-gradient(#bbb, #eee);
-  border: 1px solid #999999;
+  border: 1px solid #1863ad;
   border-radius: 3px;
   display: inline-block;
   height: 16px;
@@ -347,10 +349,10 @@ a.dk-speakout-facebook:active {
  *	Response messages
  */
 .dk-speakout-response {
-  background-color: #ccc;
+  background-color: #4696e5;
   display: none;
   padding: 1em 5%;
-  border-bottom: 1px solid #b3b3b3 !important;
+  border-bottom: 1px solid #1f7dd9 !important;
 }
 .dk-speakout-response-error {
   background-color: #ffebe8;
