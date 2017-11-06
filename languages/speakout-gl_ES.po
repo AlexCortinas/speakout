@@ -182,7 +182,7 @@ msgstr "Muestra los campos de dirección"
 #: includes/addnew.view.php:203 includes/emailpetition.php:110
 #: includes/widget.php:234
 msgid "Street"
-msgstr "Calle"
+msgstr "Entidade á que pertence / profesión"
 
 #: includes/addnew.view.php:206 includes/csv.php:48
 #: includes/emailpetition.php:118 includes/settings.view.php:145
@@ -314,7 +314,7 @@ msgstr "Dirección de Correo"
 
 #: includes/csv.php:47
 msgid "Street Address"
-msgstr "Dirección"
+msgstr "Entidade á que pertence / profesión"
 
 #: includes/csv.php:49
 msgid "State"
