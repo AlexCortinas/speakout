@@ -392,3 +392,6 @@ a.dk-speakout-facebook:active {
 .dk-speakout-petition-wrap .readme-wrapper {
   display: none;
 }
+.dk-speakout-full label span.translation {
+  color: #696969;
+}
