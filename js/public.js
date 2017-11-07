@@ -69,6 +69,10 @@ jQuery( document ).ready( function( $ ) {
 			$( '#dk-speakout-last-name-' + id ).addClass( 'dk-speakout-error' );
 			errors ++;
 		}
+		if ( custom_field === '' ) {
+			$( '#dk-speakout-custom-field-' + id ).addClass( 'dk-speakout-error' );
+			errors ++;
+		}
 
 		// if no errors found, submit the data via ajax
 		if ( errors === 0 && $( this ).attr( 'rel' ) !== 'disabled' ) {
