@@ -95,7 +95,7 @@ function dk_speakout_emailpetition_shortcode( $attr ) {
 								<input name="dk-speakout-last-name" id="dk-speakout-last-name-' . $petition->id . '" value="' . $userdata['lastname'] . '" type="text" />
 							</div>
 							<div class="dk-speakout-full">
-								<label for="dk-speakout-email-' . $petition->id . '" class="required">' . __( 'Email', 'speakout' ) . '</label>
+								<label for="dk-speakout-email-' . $petition->id . '" class="required">' . __( 'Email', 'speakout' ) . '<span class="translation"> Email</span></label>
 								<input name="dk-speakout-email" id="dk-speakout-email-' . $petition->id . '" value="' . $userdata['email'] . '" type="text" />
 							</div>';
 				if ( $petition->requires_confirmation ) {
