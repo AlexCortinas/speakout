@@ -38,6 +38,8 @@ class dk_speakout_Signaturelist
 		// only show signature lists if there are signatures
 		if ( $total > 0 ) {
 			// determine which columns to display
+			// "street", which is organization or profesion, is shown: 
+			$display_street   = 1;
 			$display_city     = ( in_array( 'sig_city', $columns ) ) ? 1 : 0;
 			$display_state    = ( in_array( 'sig_state', $columns ) ) ? 1 : 0;
 			$display_postcode = ( in_array( 'sig_postcode', $columns ) ) ? 1 : 0;
@@ -83,6 +85,7 @@ else{
 				 $display_lastname =	substr($signature->last_name, 0, 1) . ".";
 				}
 				$signatures_list .= "\t" .'<td class="dk-speakout-signaturelist-name" >' . stripslashes( $signature->first_name . ' ' . $display_lastname ) . '</td>'.PHP_EOL ;
+				if ( $display_street ) $signatures_list   .= "\t" .'<td class="dk-speakout-signaturelist-street">' . stripslashes( $signature->street_address ) . '</td>'.PHP_EOL;
 
 				// if we display both city and state, combine them into one column
 				$city  = ( $display_city )  ? $signature->city : '';
